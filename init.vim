@@ -14,7 +14,10 @@ Plug 'nvim-telescope/telescope.nvim'
 "For js
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'skammer/vim-css-color'
 
+"COC😏
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Dev icons files
 Plug 'kyazdani42/nvim-web-devicons'
 "Line indent
@@ -25,8 +28,8 @@ call plug#end()
 let mapleader = " "
 
 "Telescope 
-nnoremap <leader>ff <cmd>Telescope find_files prompt_prefix=🔥<cr>
-nnoremap <leader>fb <cmd>Telescope buffers prompt_prefix=👁️<cr>
+nnoremap <leader>ff <cmd>Telescope find_files prompt_prefix=🔥 <cr>
 "Has to be the last line for the .nvimrc per project
+
 set secure
 
